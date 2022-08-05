@@ -1,26 +1,44 @@
+
 # passwordGenerator
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
+
+- A simple password generator that randomizes characters based on parameters provided by the user.
 
 
 
-prompts for requested length
-prompts for lowercase
-prompts for uppercase
-prompts for numeric
-prompts for special characters
+## Installation
 
-when all prompts are selected a password should display showing all selected criteria
+Install my project via git bash
+
+Use "Git Clone git@github.com:Tehseus/passwordGenerator.git" to pull down repository
+
+Link to repository: https://github.com/Tehseus/passwordGenerator
+
+Link to deployed app: https://tehseus.github.io/passwordGenerator/
+
+    
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+
+## Features
+
+- The user is presented with a large red button to generate a password.
+- Initial prompt to user is to give password length.
+- The password length prompt has validation for user input( 8 characters or more, 128 characters or less, and has to be an integer.)
+- If the user does not select a valid response they are greeted with an alert asking them to follow instructions.
+- The first confirm asks the user if they would like to use lowercase letters.
+- The Second confirm asks the user if they would like to use uppercase letters.
+- The third confirm asks the user if they would like to use numbers.
+- The fourth confirm asks the user if they would like to include special characters.
+- The password generator then validates that the user selected at least one criteria.
+- The user is then greeted with an alert if they selected nothing, asking them yet again to follow instructions.
+- If the user selected none above criteria they then have to push the generate password button again and start over.
+- If the user successfully selected criteria and a valid number between 8-128 characters, a password is generated in the text field.
+- If the user hits the generate password button the field should then be cleared of the previous password.
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
