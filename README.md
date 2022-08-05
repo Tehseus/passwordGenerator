@@ -18,7 +18,7 @@ Link to deployed app: https://tehseus.github.io/passwordGenerator/
     
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/Tehseus/passwordGenerator/blob/main/assets/images/example_screenshot.PNG)
 
 
 ## Features
